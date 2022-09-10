@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "VRTutorial",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "/Users/Shared/Epic Games/UE_4.27"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+            "__config": "cpp",
+            "type_traits": "cpp"
+        },
+		"C_Cpp.default.forcedInclude": [
+			"${default}",
+			"/Users/mikezou/Documents/Unreal Projects/VRTutorial/Intermediate/Build/Mac/x86_64/UE4Editor/Development/VRTutorial/Definitions.VRTutorial.h",
+			"/Users/mikezou/Documents/Unreal Projects/VRTutorial/Intermediate/Build/Mac/x86_64/VRTutorialEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug"
+		]
+	}
+}

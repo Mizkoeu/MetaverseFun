@@ -1,5 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
+.DS_Store
 
 # Compiled Object files
 *.slo
@@ -48,6 +49,10 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
+
+# Ignore all the external contents that take up way too much space
+Content/EF_Lewis
+Content/GreenwoodFantasyVillage
 
 # Builds
 Build/*
